@@ -26,8 +26,8 @@ body {
     background-attachment: fixed;
 }
 
-a.externo::after {
-    content: '\00a0\1F517';
+a.externo::before {
+    content: '\27A1\00a0\00a0';
 }
 
 header {
@@ -72,29 +72,32 @@ header div a {
 }
     
 nav {
+    background-image: linear-gradient(to right,rgba(139, 92, 92, 0.753), transparent);
    /*background-image: url(imagens/weathered-wood-texture.jpg);
     background-size: cover;
     background-attachment: fixed;
     border: 3px solid black;*/
-    margin: 0px 20px;
+    
     padding: 10px; 
 }
 
 nav > a {
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.432);
+    
+    /*border-radius: 5px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.432);*/
     color:rgb(48, 3, 3);
+    border-radius: 10px;
     font-family: var(--fonte-texto);
     font-size: 1.5em; 
     font-weight: bolder;    
-    padding: 2px 40px;
+    padding: 10px 40px;
     margin-left: 10px;
     text-decoration: none; 
     transition-duration: .5s;
 }
 
 nav > a:hover {
-    background-color:white;
+    background-image: linear-gradient(to right,white,transparent);
     color:black;
 }
 article {
