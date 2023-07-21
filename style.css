@@ -21,7 +21,7 @@
 }
 
 body {
-    background-image: url(imagens/pexels-tbee-82256.jpg);
+    background-image: url(imagens/pexels-fwstudio-172286.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -69,8 +69,8 @@ header div a {
 }
     
 nav {
-    background-image: linear-gradient(to right,rgba(139, 92, 92, 0.753), transparent);
-   /*background-image: url(imagens/weathered-wood-texture.jpg);
+    background-image: linear-gradient(to right,rgba(182, 60, 60, 0.753), transparent);
+    /*background-image: url(imagens/weathered-wood-texture.jpg);
     background-size: cover;
     background-attachment: fixed;
     border: 3px solid black;*/
@@ -171,7 +171,9 @@ main img {
 }
 
 picture {
-    background-image: url(imagens/weathered-wood-texture.jpg);
+    background-color: rgba(58, 43, 43, 0.445);
+    /*background-color: rgba(153, 137, 137, 0.651);*/
+    /*background-image: url(imagens/weathered-wood-texture.jpg);*/
     background-size: cover;
     background-attachment: fixed;
     margin: auto;
