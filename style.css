@@ -69,7 +69,8 @@ header div a {
 }
     
 nav {
-    background-image: linear-gradient(to right,rgba(182, 60, 60, 0.753), transparent);
+    background-color:rgba(88, 80, 80, 0.541)  ;
+    /*background-image: linear-gradient(to right,rgba(88, 80, 80, 0.753), transparent);*/
     /*background-image: url(imagens/weathered-wood-texture.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -92,7 +93,8 @@ nav > a {
 }
 
 nav > a:hover {
-    background-image: linear-gradient(to right,white,transparent);
+    background-color: rgba(255, 255, 255, 0.534);
+    /*background-image: linear-gradient(to right,white,transparent);*/
     color:black;
 }
 
@@ -185,6 +187,7 @@ picture {
 
 picture > a {
     color:rgb(48, 3, 3);
+   
     transition-duration: .5s;
 }
 
