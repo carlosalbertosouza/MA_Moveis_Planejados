@@ -43,18 +43,19 @@ header img {
 header > h1 {
     color:black;
     font-family:var(--fonte-texto);
+    line-height: 1em;
     max-width: 800px;
     margin: auto;
-    font-size: 4em;
+    font-size: 4.5em;
     text-shadow: 15px 15px 10px  rgba(0, 0, 0, 0.342);
-    padding: 20px;   
+    padding: 20px;  margin-bottom: 10px; 
 }
 
 header > p {
     color:rgba(0, 0, 0, 0.849);
     font-style: italic;
     font-family: var(--fonte-texto);
-    font-size: 1.3em;
+    font-size: 1.5em;
     max-width: 900px;
     margin: auto;
     padding-bottom: 10px;
@@ -110,9 +111,9 @@ h2 {
 }
 
 article {
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-family: var(--fonte-texto);
-    text-shadow: 1px 1px 0px white;
+    text-shadow: 2px 2px 0px  rgba(0, 0, 0, 0.5);
     font-style: italic ;
     font-weight: bolder;
     margin-top: 30px;
@@ -128,16 +129,19 @@ article section {
 }
 
 main { 
-    margin: 50px 20px;  
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
 }
 
 main  h1 {
     color:rgba(0, 0, 0, 0.849);
     font-style: italic;
     font-family: var(--fonte-texto);
-    font-size: 2em;
+    font-size: 2.5em;
     margin-left: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 main  h2 {
@@ -155,40 +159,28 @@ main p {
 }
 
 main img {
-    margin-top: 20px;
-    width: 90%;
-    height: 90%;
-}
-
-.container {
-    display:flex;
-    flex-direction: row; 
-    padding-bottom: 30px;
-}
-
-.elemento{
-    text-align: center;
-    width: 400px;
-    height: 400px;   
-}
-
-picture {
-    background-color: rgba(58, 43, 43, 0.445);
     /*background-color: rgba(153, 137, 137, 0.651);*/
     /*background-image: url(imagens/weathered-wood-texture.jpg);*/
-    background-size: cover;
-    background-attachment: fixed;
-    margin: auto;
+    background-image: url(imagens/pexels-henry-&-co-2341290.jpg);
     border: 5px solid black;
     border-radius: 5px;
     box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.432);
     margin-bottom: 30px;
+    margin: 20px;
+    padding: 20px;
+    width: 60%;
+    height: 60%;
 }
 
-picture > a {
-    color:rgb(48, 3, 3);
-   
-    transition-duration: .5s;
+main div {
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+picture {
+  
 }
 
 /*div.video {
