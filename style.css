@@ -21,7 +21,7 @@
 }
 
 body {
-    background-image: url(imagens/fundo-madeira.jpg);
+    background-image: url(imagens/pexels-fwstudio-172286.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -160,7 +160,7 @@ main p {
 main img {
     /*background-color: rgba(153, 137, 137, 0.651);*/
     /*background-image: url(imagens/weathered-wood-texture.jpg);*/
-    background-image: url(imagens/pexels-henry-&-co-2341290.jpg);
+    background-image: url(imagens/fundo-madeira.jpg);
     border: 5px solid black;
     border-radius: 5px;
     box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.432);
