@@ -21,7 +21,7 @@
 }
 
 body {
-    background-image: url(imagens/pexels-fwstudio-172286.jpg);
+    background-image: url(imagens/fundo-madeira.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -113,7 +113,6 @@ nav > a:hover {
 article {
     font-size: 1.4em;
     font-family: var(--fonte-texto);
-    text-shadow: 2px 2px 0px  rgba(0, 0, 0, 0.5);
     font-style: italic ;
     font-weight: bolder;
     margin-top: 30px;
