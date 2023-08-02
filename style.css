@@ -110,7 +110,38 @@ nav > a:hover {
     color:black;
 }
 
-article {
+.um {
+    margin: 40px auto;
+    width: 80vw;    
+    
+}
+.dois {
+    margin: 55px 0px 15px 0px;
+    text-align: center;
+    width: 60px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.466);
+    
+    
+}
+.tres {
+    font-family: var(--fonte-texto);
+    text-align: justify;
+    font-size: 2em;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.466);
+    
+}
+.quatro {
+    display: flex;
+}
+
+div p {
+    margin: 10px 20px;
+}
+
+/*article {
     font-size: 1.4em;
     font-family: var(--fonte-texto);
     font-style: italic ;
@@ -125,12 +156,12 @@ article section {
     margin-top: 20px;
     border-radius: 20px;
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.432)  
-}
+}*/
 
 main { 
     max-width: 1000px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 70px;
     text-align: center;
 }
 
@@ -159,16 +190,17 @@ main p {
 
 main img {
     /*background-color: rgba(153, 137, 137, 0.651);*/
-    /*background: url(imagens/weathered-wood-texture.jpg);*/
-    background: url(imagens/fundo-madeira.jpg) no-repeat top center;
-    border: 5px solid black;
-    border-radius: 5px;
-    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.432);
-    margin-bottom: 30px;
-    margin: 20px;
-    padding: 20px;
+    /*background-image: url(imagens/weathered-wood-texture.jpg);
+    background: url(imagens/pexels-henry-&-co-2341290.jpg) no-repeat center;*/
     width: 60%;
     height: 60%;
+    border: 7px solid black;
+    border-radius: 15px;
+    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.541);
+    margin-bottom: 30px;
+    margin: 20px;
+    */padding: 20px;
+    */
 }
 
 main div {
