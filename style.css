@@ -21,7 +21,7 @@
 }
 
 body {
-    background-image: url(imagens/pexels-fwstudio-172286.jpg);
+    background: url(imagens/pexels-fwstudio-172286.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -159,8 +159,8 @@ main p {
 
 main img {
     /*background-color: rgba(153, 137, 137, 0.651);*/
-    /*background-image: url(imagens/weathered-wood-texture.jpg);*/
-    background-image: url(imagens/fundo-madeira.jpg);
+    /*background: url(imagens/weathered-wood-texture.jpg);*/
+    background: url(imagens/fundo-madeira.jpg) no-repeat top center;
     border: 5px solid black;
     border-radius: 5px;
     box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.432);
