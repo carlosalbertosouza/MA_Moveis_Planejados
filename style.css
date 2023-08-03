@@ -20,6 +20,10 @@
     padding: 0px;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
 body {
     background: url(imagens/pexels-fwstudio-172286.jpg) no-repeat top center;
     background-size: cover;
@@ -122,9 +126,7 @@ nav > a:hover {
     text-align: center;
     width: 60px;
     border-radius: 5px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.466);
-    
-    
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.466);   
 }
 .tres {
     font-family: var(--fonte-texto);
@@ -137,43 +139,39 @@ nav > a:hover {
 }
 .quatro {
     display: flex;
+    justify-content: space-evenly;
+    width: 98%;
+    margin: auto;
 }
 
 div p {
     margin: 10px 20px;
 }
 
-/*article {
-    font-size: 1.4em;
-    font-family: var(--fonte-texto);
-    font-style: italic ;
-    font-weight: bolder;
-    margin-top: 30px;
-}
 
-article section {
-    margin: 20px 40px;
-    font-size: 1.2em;
-    padding-left: 30px;
-    margin-top: 20px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.432)  
-}*/
 
 main { 
+    background: url(imagens/fundo-madeira.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.425);
     max-width: 1000px;
     margin: auto;
     margin-top: 70px;
     text-align: center;
 }
 
+
 main  h1 {
+    width: 90%;
     color:rgba(0, 0, 0, 0.849);
-    font-style: italic;
     font-family: var(--fonte-texto);
     font-size: 2.5em;
-    margin-left: 20px;
-    padding-bottom: 30px;
+    margin-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: left;
 }
 
 main  h2 {
@@ -194,15 +192,23 @@ main img {
     /*background-color: rgba(153, 137, 137, 0.651);*/
     /*background-image: url(imagens/weathered-wood-texture.jpg);
     background: url(imagens/pexels-henry-&-co-2341290.jpg) no-repeat center;*/
-    width: 60%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     border: 7px solid black;
     border-radius: 15px;
-    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.541);
-    margin-bottom: 30px;
-    margin: 20px;
-    */padding: 20px;
-    */
+    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.541); 
+}
+
+#img1 {
+    margin: auto;
+    width: 40%;
+    height: 40%;
+}
+
+#img2 {
+    margin: auto;
+    width: 40%;
+    height: 40%;
 }
 
 main div {
@@ -210,10 +216,6 @@ main div {
     background-attachment: fixed;
     margin: auto;
     padding-bottom: 30px;
-}
-
-picture {
-  
 }
 
 /*div.video {
@@ -249,4 +251,21 @@ footer a:hover {
     padding: 10px;
     font-weight: bold;
     transition-duration: .5s;
+}*/
+
+/*article {
+    font-size: 1.4em;
+    font-family: var(--fonte-texto);
+    font-style: italic ;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+article section {
+    margin: 20px 40px;
+    font-size: 1.2em;
+    padding-left: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.432)  
 }*/
