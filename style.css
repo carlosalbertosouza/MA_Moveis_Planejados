@@ -36,19 +36,32 @@ header {
     margin: 10px 20px;    
 }
 header img {
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.452);
+    margin: 30px 0px 30px 0px;
 }
 
 header > h1 {
     color:black;
     font-family:var(--fonte-texto);
     line-height: 1em;
-    max-width: 500px;
+    max-width: 700px;
     margin: auto;
     font-size: 4.5em;
-    text-shadow: 15px 15px 10px  rgba(0, 0, 0, 0.342);
-    padding: 20px;  margin-bottom: 10px; 
+    text-shadow: 15px 15px 10px  rgba(0, 0, 0, 0.342);   
+     
+}
+
+header  h2 {
+    color:black;
+    font-family:var(--fonte-texto);
+    line-height: 1em;
+    max-width: 1250px;
+    margin: auto;
+    margin: 30px 0px 30px 0px;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 15px 15px 10px  rgba(0, 0, 0, 0.342);  
 }
 
 header > p {
@@ -59,17 +72,6 @@ header > p {
     max-width: 900px;
     margin: auto;
     padding-bottom: 20px;
-}
-
-h2 {
-    color:black;
-    font-family:var(--fonte-texto);
-    max-width: 1250px;
-    margin: auto;
-    margin-top: 10PX;
-    font-size: 3.5em;
-    text-align: center;
-    text-shadow: 15px 15px 10px  rgba(0, 0, 0, 0.342);  
 }
 
 header > div  {
@@ -131,7 +133,7 @@ nav > a:hover {
     padding-bottom: 20px;
     border-radius: 5px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.466);
-    
+    line-height: 1.2em;
 }
 .quatro {
     display: flex;
