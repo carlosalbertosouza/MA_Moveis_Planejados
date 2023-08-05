@@ -148,10 +148,8 @@ div p {
     margin: 10px 20px;
 }
 
-
-
 main { 
-    background: url(imagens/fundo-madeira.jpg) no-repeat;
+    background: url(imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
     border-radius: 10px;
@@ -168,9 +166,10 @@ main  h1 {
     color:rgba(0, 0, 0, 0.849);
     font-family: var(--fonte-texto);
     font-size: 2.5em;
+    margin-top: 0px;
     margin-left: 40px;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     text-align: left;
 }
 
@@ -181,11 +180,21 @@ main  h2 {
     font-weight: normal;
 }
 
-main p {
+p a {
     color: black;
-    font-style: bolder;
-    font-family: var(--fonte-numero);
     font-size: 1.5em;
+    font-weight: bolder;
+    font-family: var(--fonte-texto);
+    text-decoration: none;
+}
+
+p a:hover {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+abbr {
+    text-decoration: none;
 }
 
 main img {
@@ -210,6 +219,16 @@ main img {
     width: 40%;
     height: 40%;
 }
+
+div > img {
+    width: 4%;
+}
+
+#img3 {
+    font-family: var(--fonte-numero);
+    font-size: 1.1em;
+    font-weight: bolder;
+}           
 
 main div {
     background-size: cover;
