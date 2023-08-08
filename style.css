@@ -49,7 +49,7 @@ header > h1 {
     color:black;
     font-family:var(--fonte-texto);
     line-height: 1em;
-    max-width: 700px;
+    max-width: 500px;
     margin: auto;
     font-size: 4.5em;
     text-shadow: 15px 15px 10px  rgba(0, 0, 0, 0.342);   
@@ -154,7 +154,7 @@ main {
     background-attachment: fixed;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.425);
-    max-width: 1000px;
+    width:85%;
     margin: auto;
     margin-top: 70px;
     text-align: center;
@@ -165,7 +165,7 @@ main  h1 {
     width: 90%;
     color:rgba(0, 0, 0, 0.849);
     font-family: var(--fonte-texto);
-    font-size: 2.5em;
+    font-size: 2em;
     margin-top: 0px;
     margin-left: 40px;
     padding-top: 40px;
@@ -178,6 +178,24 @@ main  h2 {
     font-family:var(--fonte-texto);
     font-size: 2em;
     font-weight: normal;
+}
+
+main div {
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+main img {
+    /*background-color: rgba(153, 137, 137, 0.651);*/
+    /*background-image: url(imagens/weathered-wood-texture.jpg);
+    background: url(imagens/pexels-henry-&-co-2341290.jpg) no-repeat center;*/
+    width: 100%;
+    height: 100%;
+    border: 7px solid black;
+    border-radius: 15px;
+    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.541); 
 }
 
 p a {
@@ -197,17 +215,6 @@ abbr {
     text-decoration: none;
 }
 
-main img {
-    /*background-color: rgba(153, 137, 137, 0.651);*/
-    /*background-image: url(imagens/weathered-wood-texture.jpg);
-    background: url(imagens/pexels-henry-&-co-2341290.jpg) no-repeat center;*/
-    width: 100%;
-    height: 100%;
-    border: 7px solid black;
-    border-radius: 15px;
-    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.541); 
-}
-
 #img1 {
     margin: auto;
     width: 40%;
@@ -220,22 +227,39 @@ main img {
     height: 40%;
 }
 
-div > img {
-    width: 4%;
-}
-
 #img3 {
     font-family: var(--fonte-numero);
     font-size: 1.1em;
     font-weight: bolder;
-}           
+} 
 
-main div {
-    background-size: cover;
-    background-attachment: fixed;
-    margin: auto;
-    padding-bottom: 30px;
+footer {
+    display: flex;
+    text-align: center; 
+    margin: auto; 
+    max-width: 900px;  
 }
+
+footer a {
+    font-size: 1.5em;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+footer a:hover {
+   
+}
+
+
+footer img {
+   
+}
+
+
 
 /*div.video {
     background-color: var(--cor5);
@@ -253,24 +277,7 @@ div.video > iframe {
     height: 90%;
 }
 
-footer {
-    text-align: center;
-    font-size: 1.5em;
-    padding: 10px;
-}
 
-footer a {
-    color:black;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: black;
-    padding: 10px;
-    font-weight: bold;
-    transition-duration: .5s;
-}*/
 
 /*article {
     font-size: 1.4em;
