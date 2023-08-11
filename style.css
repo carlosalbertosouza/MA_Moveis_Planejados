@@ -38,18 +38,16 @@ header {
     display: block;
     text-align: center;
     margin: auto;
-    margin: 10px 20px;    
+    margin: 20px 20px;    
 }
-header img {
+header > img {
+    width: 80%;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.452);
-    text-align: center;
-    margin: auto;
-    margin: 10px 20px;    
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.452); 
+    margin-bottom: 40px;
 }
 
 header > h1 {
-    background-color: #3DDC84;
     display: block;
     color:black;
     font-family:var(--fonte-texto);
@@ -74,7 +72,7 @@ header  h2 {
     text-shadow: 15px 15px 10px  rgba(0, 0, 0, 0.342);  
 }
 
-header > p {
+header  p {
     color:rgba(0, 0, 0, 0.849);
     font-style: italic;
     font-family: var(--fonte-texto);
@@ -84,14 +82,14 @@ header > p {
     padding-bottom: 20px;
 }
 
-header > div  {
-    text-align: right;
-    margin: 0px 20px;
+header > div {  
+    display: flex;
 }
-header div a {
-    margin-left: 20px;
+
+header > div > h2  {
+    margin: auto;  
 }
-    
+
 nav {
     background-color:rgba(88, 80, 80, 0.541)  ;
     /*background-image: linear-gradient(to right,rgba(88, 80, 80, 0.753), transparent);*/
@@ -120,6 +118,10 @@ nav > a:hover {
     background-color: rgba(255, 255, 255, 0.534);
     /*background-image: linear-gradient(to right,white,transparent);*/
     color:black;
+}
+
+article {
+    max-width: 1000px;
 }
 
 .um {
