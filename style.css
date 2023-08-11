@@ -41,9 +41,8 @@ header {
     margin: 20px 20px;    
 }
 header > img {
-    width: 450px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.452); 
+    width: 80%;
+    border-radius: 10px; 
     margin-bottom: 40px;
 }
 
@@ -54,7 +53,7 @@ header > h1 {
     line-height: 1em;
     max-width: 450px;
     margin: auto;
-    font-size: 3.5em;
+    font-size: 4em;
     text-align: center;
     text-shadow: 15px 15px 10px  rgba(0, 0, 0, 0.342);   
      
@@ -121,7 +120,7 @@ nav > a:hover {
 }
 
 article {
-    max-width: 900px;
+    max-width: 1000px;
 }
 
 .um {
@@ -162,7 +161,7 @@ main {
     background-attachment: fixed;
     border-radius: 10px;
     box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.425);
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
     margin-top: 70px;
     text-align: center;
@@ -170,7 +169,7 @@ main {
 
 
 main  h1 {
-    width: 80%;
+    width: 90%;
     color:rgba(0, 0, 0, 0.849);
     font-family: var(--fonte-texto);
     font-size: 2em;
