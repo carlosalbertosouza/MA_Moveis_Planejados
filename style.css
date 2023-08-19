@@ -206,9 +206,14 @@ main img {
     margin-top: 40px;
 }
 
+main img:hover {
+    border: 4px solid white;
+    box-shadow: 15px 15px 10px 0px rgba(255, 255, 255, 0.774);
+}
+
 p a {
     color: black;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bolder;
     font-family: var(--fonte-texto);
     text-decoration: none;
@@ -218,6 +223,7 @@ p a:hover {
     background-color: white;
     padding: 5px;
     border-radius: 10px;
+    box-shadow: 15px 15px 10px 0px rgba(255, 255, 255, 0.774);
 }
 abbr {
     text-decoration: none;
@@ -255,7 +261,7 @@ footer > a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
-    margin: 10px;
+    margin: 8px;
 }
 
 /*footer a:hover {
