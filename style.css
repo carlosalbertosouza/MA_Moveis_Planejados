@@ -55,7 +55,6 @@ header > h1 {
     font-size: 4em;
     text-align: center;
     text-shadow: 15px 15px 10px  rgba(0, 0, 0, 0.342);   
-     
 }
 
 header  h2 {
@@ -70,23 +69,46 @@ header  h2 {
     text-shadow: 15px 15px 10px  rgba(0, 0, 0, 0.342);  
 }
 
-header  p {
+header > p {
     color:rgba(0, 0, 0, 0.849);
     font-style: italic;
     font-family: var(--fonte-texto);
     font-size: 1.5em;
     max-width: 900px;
     margin: auto;
+    margin-top: 60px;
     padding-bottom: 20px;
 }
 
 header a {
    margin-left: 20px; 
+   text-decoration: none;
 }
 
 header div {  
     text-align: right;
     margin: 30px;
+}
+
+section {
+    font-family:var(--fonte-texto);
+    font-size: 1.8em;
+    margin: 20px 0px 5px 0px;
+}
+
+section a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    margin-left: 0px;
+}
+
+section > p {
+    max-width: 400px;
+    margin: auto;
+    font-size: 1em;
+    margin-top: -10px;
+    margin-bottom: -50px;
 }
 
 nav {
