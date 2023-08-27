@@ -42,7 +42,6 @@ header {
 }
 header > img {
     width: 80%;
-    border-radius: 10px; 
     margin-bottom: 40px;
 }
 
@@ -81,12 +80,13 @@ header  p {
     padding-bottom: 20px;
 }
 
-header > div {  
-    display: flex;
+header a {
+   margin-left: 20px; 
 }
 
-header > div > h2  {
-    margin: auto;  
+header div {  
+    text-align: right;
+    margin: 30px;
 }
 
 nav {
@@ -117,6 +117,18 @@ nav > a:hover {
     background-color: rgba(255, 255, 255, 0.534);
     /*background-image: linear-gradient(to right,white,transparent);*/
     color:black;
+}
+
+aside h1 {
+    color:black;
+    font-family:var(--fonte-texto);
+    line-height: 1em;
+    max-width: 1250px;
+    margin: auto;
+    margin: 40px;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 15px 15px 10px  rgba(0, 0, 0, 0.342);  
 }
 
 article {
@@ -257,7 +269,6 @@ abbr {
 } 
 
 footer {
-    background-color:rgba(88, 80, 80, 0.541)  ;
     display: flex; 
     justify-content: center;
     font-size: .800em;
