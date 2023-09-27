@@ -118,7 +118,7 @@ nav {
     background-size: cover;
     background-attachment: fixed;
     border: 3px solid black;*/
-    padding: 10px; 
+    padding: 5px; 
 }
 
 nav > a {
@@ -129,7 +129,7 @@ nav > a {
     font-family: var(--fonte-texto);
     font-size: 1.5em; 
     font-weight: bolder;    
-    padding: 10px 40px;
+    padding: 10px 30px;
     margin-left: 10px;
     text-decoration: none; 
     transition-duration: .5s;
