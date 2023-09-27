@@ -129,7 +129,7 @@ nav > a {
     font-family: var(--fonte-texto);
     font-size: 1.5em; 
     font-weight: bolder;    
-    padding: 10px 30px;
+    padding: 5px 50px;
     margin-left: 10px;
     text-decoration: none; 
     transition-duration: .5s;
@@ -220,6 +220,12 @@ main  h2 {
     font-size: 2em;
     font-weight: normal;
 }
+main h3 {
+    color: black;
+    font-family:var(--fonte-texto);
+    font-size: 2em;
+    font-weight: normal;
+}
 
 .cinco {
     color:black;
@@ -252,6 +258,114 @@ main img {
 main img:hover {
     border: 4px solid white;
     box-shadow: 15px 15px 10px 0px rgba(255, 255, 255, 0.774);
+}
+
+ul#album-fotos {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #ffffff;
+    background-color: #3DDC84;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.377);
+    -webkit-transition: all .3s ease-in;
+}
+
+ul#album-fotos li span {
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px;
+    background-color: rgba(0, 0, 0, 0.493);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#album-fotos li:hover {
+    -webkit-transform: scale(1.3);
+}
+
+ul#album-fotos li:hover span {
+    opacity: 1;
+}
+
+ul#album-fotos li#foto01 {
+    background: url(imagens/armarioCozinha455x455.png)no-repeat;
+    background-position: 50% 50%;  
+    background-size: 455px 455px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto02 {
+    background: url(imagens/blacão455x455.3.png)no-repeat;
+    background-position: 50% 50%;  
+    background-size: 455px 455px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto03 {
+    background: url(imagens/imagem\ guarda-roupa455x455.png)no-repeat;
+    background-position: 50% 50%;  
+    background-size: 455px 455px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto04 {
+    background: url(imagens/balcãofechado2.png)no-repeat;
+    background-position: 50% 50%;  
+    background-size: 455px 455px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto05 {
+    background: url(imagens/balcãofechado2.png)no-repeat;
+    background-position: 50% 50%;  
+    background-size: 455px 455px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto05:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto06 {
+    background: url(imagens/balcãofechado2.png)no-repeat;
+    background-position: 50% 50%;  
+    background-size: 455px 455px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto06:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
 }
 
 p a {
