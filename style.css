@@ -260,19 +260,19 @@ main img:hover {
 }
 
 ul#album-fotos {
-    background-color: #2FA866;
     max-width: 700px;
     margin: auto;
-    padding: 5px;
+    padding: 50px;
     overflow: hidden;
     list-style: none;
 }
 
 ul#album-fotos li {
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin: 10px;
+    margin-left: 50px;
     border: 5px solid #ffffff;
     background-color: #3DDC84;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.377);
@@ -285,12 +285,12 @@ ul#album-fotos li span {
     text-shadow: 1px 1px 1px;
     background-color: rgba(0, 0, 0, 0.493);
     font-size: 9pt;
-    line-height: 370px;
+    line-height: 460px;
     padding: 5px;
 }
 
 ul#album-fotos li:hover {
-    -webkit-transform: scale(1.1);
+    -webkit-transform: scale(1.3);
 }
 
 ul#album-fotos li:hover span {
@@ -306,7 +306,7 @@ ul#album-fotos li#foto01 {
 
 ul#album-fotos li#foto01:hover {
     background-position: 0px 0px;
-    background-size: 200px 200px;
+    background-size: 250px 250px;
 }
 
 ul#album-fotos li#foto02 {
@@ -318,7 +318,7 @@ ul#album-fotos li#foto02 {
 
 ul#album-fotos li#foto02:hover {
     background-position: 0px 0px;
-    background-size: 200px 200px;
+    background-size: 250px 250px;
 }
 ul#album-fotos li#foto03 {
     background: url(imagens/imagem\ guarda-roupa455x455.png)no-repeat;
@@ -329,7 +329,7 @@ ul#album-fotos li#foto03 {
 
 ul#album-fotos li#foto03:hover {
     background-position: 0px 0px;
-    background-size: 200px 200px;
+    background-size: 250px 250px;
 }
 
 ul#album-fotos li#foto04 {
@@ -341,7 +341,7 @@ ul#album-fotos li#foto04 {
 
 ul#album-fotos li#foto04:hover {
     background-position: 0px 0px;
-    background-size: 200px 200px;
+    background-size: 250px 250px;
 }
 
 ul#album-fotos li#foto05 {
@@ -353,7 +353,7 @@ ul#album-fotos li#foto05 {
 
 ul#album-fotos li#foto05:hover {
     background-position: 0px 0px;
-    background-size: 200px 200px;
+    background-size: 250px 250px;
 }
 
 ul#album-fotos li#foto06 {
@@ -365,7 +365,7 @@ ul#album-fotos li#foto06 {
 
 ul#album-fotos li#foto06:hover {
     background-position: 0px 0px;
-    background-size: 200px 200px;
+    background-size: 250px 250px;
 }
 
 p a {
