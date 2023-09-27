@@ -129,8 +129,7 @@ nav > a {
     font-family: var(--fonte-texto);
     font-size: 1.5em; 
     font-weight: bolder;    
-    padding: 5px 50px;
-    margin-left: 10px;
+    padding: 10px 20px;
     text-decoration: none; 
     transition-duration: .5s;
 }
@@ -262,7 +261,7 @@ main img:hover {
 
 ul#album-fotos {
     max-width: 700px;
-    margin: 0 auto;
+    margin: auto;
     padding: 20px;
     overflow: hidden;
     list-style: none;
@@ -276,7 +275,7 @@ ul#album-fotos li {
     border: 5px solid #ffffff;
     background-color: #3DDC84;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.377);
-    -webkit-transition: all .3s ease-in;
+    -webkit-transition: all .4s ease-in;
 }
 
 ul#album-fotos li span {
