@@ -20,10 +20,11 @@
     padding: 0px;
 }
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
     width: 0px;
     height: 0px;
-}
+}*/
+
 body {
     background: url(imagens/pexels-fwstudio-172286.jpg) no-repeat top center;
     background-size: cover;
@@ -118,7 +119,7 @@ nav {
     background-size: cover;
     background-attachment: fixed;
     border: 3px solid black;*/
-    padding: 5px; 
+    padding: 10px; 
 }
 
 nav > a {
@@ -129,7 +130,8 @@ nav > a {
     font-family: var(--fonte-texto);
     font-size: 1.5em; 
     font-weight: bolder;    
-    padding: 10px 20px;
+    padding: 10px 40px;
+    margin-left: 10px;
     text-decoration: none; 
     transition-duration: .5s;
 }
@@ -219,11 +221,14 @@ main  h2 {
     font-size: 2em;
     font-weight: normal;
 }
+
 main h3 {
+    background-color:rgba(31, 27, 27, 0.61);
+    padding-top: 10px;
     color: black;
     font-family:var(--fonte-texto);
     font-size: 2em;
-    font-weight: normal;
+    font-weight: bolder;
 }
 
 .cinco {
@@ -271,7 +276,7 @@ ul#album-fotos li {
     float: left;
     width: 250px;
     height: 250px;
-    margin: 10px;
+    margin: 20px;
     margin-left: 50px;
     border: 5px solid #ffffff;
     background-color: #3DDC84;
