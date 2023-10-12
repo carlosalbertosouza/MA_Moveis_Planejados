@@ -191,6 +191,7 @@ main {
     max-width: 900px;
     margin: auto;
     margin-top: 70px;
+    margin-bottom: 5px;
     text-align: center;
 }
 
@@ -588,7 +589,7 @@ ul#album-fotos li#foto24:hover {
 /* Livre */
 
 ul#album-fotos li#foto25 {
-    background: url(imagens/imagem\ gurada-roupa02.png)no-repeat;
+    background: url(imagens/formasPag.png)no-repeat;
     background-position: 50% 50%;  
     background-size: 455px 455px;
     background-color: white;
@@ -653,29 +654,17 @@ abbr {
     text-decoration: none;
 }
 
-#img1 {
-    margin: auto;
-    width: 40%;
-    height: 40%;
-}
-
-#img2 {
-    margin: auto;
-    width: 40%;
-    height: 40%;
-}
-
-#img3 {
-    font-family: var(--fonte-numero);
-    font-size: 1.1em;
-    font-weight: bolder;
-} 
-
-h4 {
+figure {
     background-color:rgba(31, 27, 27, 0.61);
-    margin: auto;
     text-align: center;
-    margin-top: 20px;
+    margin: auto;
+    padding: 10px;
+}
+
+figure img {
+    margin: auto;
+    width: 50%;
+    height: 50%;
 }
 
 footer {
